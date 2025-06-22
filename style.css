@@ -1,0 +1,134 @@
+body {
+	font-family: 'Rubik';
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.div1 {
+	border-radius: 25px 25px 0px 0px;
+	min-width: 90px;
+	display: block;
+	box-sizing: border-box; /* Ensures padding doesn't exceed 90% width */
+	text-align: center;
+	z-index: 0;
+}
+
+.div2 {
+	border-radius: 0px 0px 25px 25px;
+	min-width: 90px;
+	display: block;
+	box-sizing: border-box; /* Ensures padding doesn't exceed 90% width */
+	text-align: center;
+	z-index: 0;
+}
+
+.timeline-block {
+	position: relative;
+	border-radius: 25px;
+	width: 25%;
+	font-size: 18px;
+	margin: 1% 10%;
+	font-weight: 400;
+	margin-bottom: 400px;
+}
+
+.center {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.green-background {
+	background-color: #327452;
+	color: #FADCAD;
+	padding: 10px;
+}
+
+.orange-background {
+	background-color: #E26C1D;
+	color: #FADCAD;
+	padding: 10px;
+}
+
+.tan-background {
+	background-color: #FADCAD;
+	color: #327452;
+	padding: 10px;
+}
+
+.quote-button {
+  background-color: #FADCAD;
+  color: #E26C1D;
+  border: none;
+  padding: 10px 5%;
+  padding: 10px 5%;
+  margin-left: 10%;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+  font-family: 'Rubik';
+}
+
+.quote-button:hover {
+  background-color: #327452;
+}
+
+.dot {
+	background-color: #327452;
+	position: absolute;
+	left: 50%;
+	margin-top: 20px;
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+}
+
+.vert {
+	background-color: #327452;
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	margin-left: 15px;
+	width: 10px;
+	height: 7100px;
+}
+
+.horiz {
+	background-color: #327452;
+	position: absolute;
+	margin: 35px 31%;
+	height: 10px;
+	width: 14%;
+	z-index: 1;
+}
+
+.reveal-item {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1s ease-out;
+}
+
+.reveal-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image {
+	position: absolute;
+	width: 15%;
+	max-width: 400px;
+	height: auto;
+	right: 15%;
+	-webkit-transform:rotate(15deg);
+}
+
+.image2 {
+	position: absolute;
+	width: 15%;
+	max-width: 300px;
+	height: auto;
+	left: 15%;
+	margin-top: 175px;
+	-webkit-transform:rotate(345deg);
+}

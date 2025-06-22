@@ -1,96 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <script src="code.js"></script> 
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
+  
+  <body class="green-background">
+    <br><br>
+    <div class="center orange-background div1" style="display: flex">
+	
+      <h1 style="text-align: center; flex: 1; weight: 900;">OUR 6-MONTH STORY</h1>
+      <button class="quote-button" onclick="showRandomQuote()">Press me!</button>
+    </div>
+	
+
+
+    <div class="center tan-background div2">
+
+	
+      <h2 id="quote-display"> "You are my everything"</h2>
+      <h3 style="font-weight:400">- Simon 😘</h3><br><br><br><br><br>
+
+      <div class="vert"> </div>
+	  
+	  <img src="img (1).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (2).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item" style=" margin-bottom; 10px"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        "boo 🌃"<br>7th November 2024
+      </div><br>
+	  
+	  <img src="img (3).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (4).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Our First Date & Kiss 💏<br>17th November 2024
+      </div><br>
+	  
+	  <img src="img (5).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (6).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        My Wife's Birthday 🎁<br>24th November 2024
+      </div><br>
+	  
+	  <img src="img (7).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (8).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Officially Together ❤<br>5th December 2024
+      </div><br>
+	  
+	  <img src="img (9).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (10).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Clurb 🕺<br>6th December 2024
+      </div><br>
+	  
+	  <img src="img (11).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (12).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Moving day 🏠<br>20th December
+      </div><br>
+	  
+	  <img src="img (13).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (14).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Best Christmas Ever 🎅<br>25th December
+      </div><br>
+	  
+	  <img src="img (15).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (16).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        New Years 🥂<br>31st December
+      </div><br>
+	  
+	  <img src="img (17).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (18).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        First Hike 🌲<br>11th January 2025
+      </div><br>
+	  
+	  <img src="img (19).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (20).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        My Birthday 🎁<br>11th February 2025
+      </div><br>
+	  
+	  <img src="img (21).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (22).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Cathedral ⛪<br>17th February 2025
+      </div><br>
+	  
+	  <img src="img (23).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (24).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Pub and Dance 🍺<br>28th March 2025
+      </div><br>
+	  
+	  <img src="img (25).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (26).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Restaurant Date 🍴<br>25th April 2025
+      </div><br>
+	  
+	  <img src="img (27).jpg" class="reveal-item image" alt="Cute">
+	  <img src="img (28).jpg" class="reveal-item image2" alt="Cute">
+
+      <div class="dot reveal-item">.</div>
+      <div class="horiz reveal-item"> </div>
+
+      <div class="green-background timeline-block reveal-item">
+        Lake Swimming 🏊‍<br>11th May 2025
+      </div><br>
+
+      <div class="orange-background timeline-block reveal-item" style=" margin: 5px 10%;width: 77.5%;">
+        <h2> YOU ARE HERE</h2>
+        6-Months Together ❤‍<br>5th June 2025
+      </div><br>
+	  	  		<div class="timer-container">
+	  <h2>Time Since We Got Together ❤️</h2>
+	  <p id="relationship-timer">Loading...</p>
+	</div>
+    </div>
+	
   </body>
 </html>
