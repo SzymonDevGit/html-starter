@@ -116,8 +116,9 @@ body {
 
 .image {
 	position: absolute;
-	width: 15%;
-	max-width: 400px;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
 	height: auto;
 	right: 15%;
 	-webkit-transform:rotate(15deg);
@@ -125,8 +126,9 @@ body {
 
 .image2 {
 	position: absolute;
-	width: 15%;
+	width: auto;
 	max-width: 300px;
+	max-height: 300px;
 	height: auto;
 	left: 15%;
 	margin-top: 175px;
